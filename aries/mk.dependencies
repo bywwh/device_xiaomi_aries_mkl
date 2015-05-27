@@ -1,0 +1,26 @@
+[
+ {
+   "repository": "android_vendor_xiaomi_aries",
+   "target_path": "vendor/xiaomi/aries"
+ },
+ {
+   "repository": "android_vendor_xiaomi_msm8960-common",
+   "target_path": "vendor/xiaomi/msm8960-common"
+ },
+ {
+   "repository": "android_vendor_xiaomi_qcom-common",
+   "target_path": "vendor/xiaomi/qcom-common"
+ },
+ {
+   "repository": "android_kernel_xiaomi_aries",
+   "target_path": "kernel/xiaomi/aries"
+ },
+ {
+   "repository": "android_hardware_qcom_fm",
+   "target_path": "hardware/qcom/fm"
+ },
+ {
+   "repository": "android_device_qcom_common",
+   "target_path": "device/qcom/common"
+ }
+]

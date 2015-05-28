@@ -1,0 +1,23 @@
+
+project packages/apps/Settings/
+diff --git a/packages/apps/Settings/AndroidManifest.xml b/packages/apps/Settings/AndroidManifest.xml
+index a301131..0587504 100644
+--- a/packages/apps/Settings/AndroidManifest.xml
++++ b/packages/apps/Settings/AndroidManifest.xml
+@@ -2471,7 +2471,7 @@
+             android:excludeFromRecents="true" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+-                <category android:name="android.intent.category.LAUNCHER" />
++                <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+         </activity>
+ 
+@@ -2482,7 +2482,7 @@
+             android:excludeFromRecents="true" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+-                <category android:name="android.intent.category.LAUNCHER" />
++                <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+         </activity>
